@@ -161,3 +161,22 @@ nav {
   width: 14px;
   height: 14px;
 }
+.head h1 {
+  font-size: 20px;
+}
+footer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer table {
+  border-collapse: collapse;
+  width: 30%;
+  height: 80px;
+}
+footer table th,
+td {
+  text-align: center;
+  border: 1px solid black;
+}
