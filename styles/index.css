@@ -62,7 +62,7 @@ html,
 nav {
   padding: 0px 20px 0px 20px;
 }
-main nav ul {
+.fix nav ul {
   font-size: 14px;
   list-style: none;
   display: flex;
@@ -71,14 +71,14 @@ main nav ul {
   font-family: "Microsoft YaHei,sans-serif";
   padding-bottom: 10px;
 }
-main nav ul:nth-child(2) {
+.fix nav ul:nth-child(2) {
   border-bottom: 1px solid #b2b4b8;
   margin-bottom: 20px;
 }
-main nav ul li {
+.fix nav ul li {
   flex: 1;
 }
-main nav ul:nth-child(1) li:nth-child(1) {
+.fix nav ul:nth-child(1) li:nth-child(1) {
   color: #0097ff;
 }
 /* ------------------------------------------------------- */
